@@ -16,16 +16,16 @@ public class Student {
     int SEAM;
     int FM;
    
+    int getTotal()
+    {
+        return (RE+SDA+SQAT+SEAM+FM);
+    }
     double getAverageMark()
     {
         return (RE+SDA+SQAT+SEAM+FM)/4;
     }
 
   
-    int getTotal()
-    {
-        return (RE+SDA+SQAT+SEAM+FM);
-    }
     
     void testDisplay()
     {
